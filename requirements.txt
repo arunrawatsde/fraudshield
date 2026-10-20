@@ -1,0 +1,22 @@
+# LLM + agent
+langgraph>=0.4
+langchain-core>=0.3
+langchain-openai>=0.3
+openai>=1.60
+# knowledge base + tracing
+pinecone>=10.0,<11
+langfuse>=3.0,<6
+# data + ML
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+joblib>=1.4
+# api + config
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+pydantic>=2.8
+python-dotenv>=1.0
+# tests
+pytest>=8.3
+httpx>=0.27

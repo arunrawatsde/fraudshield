@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+models/*.joblib
+evals/results/
+# personal study notes, keep out of the public repo
+docs/interview-prep.md

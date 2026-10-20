@@ -1,0 +1,28 @@
+# api: FastAPI + model + agent (Python).   web: Next.js frontend, proxies /api/* to the api service.
+# OpenAI, Pinecone and Langfuse are cloud services configured through .env.
+#
+#   docker compose up --build                                   # open http://localhost:3000
+#   docker compose run --rm api pytest -q                       # tests
+#   docker compose run --rm api python -m fraudshield.knowledge ingest
+#   docker compose run --rm api python -m evals.run_eval --limit 12
+services:
+  api:
+    build: .
+    image: fraudshield-api:latest
+    env_file: .env
+    ports: ["${API_PORT:-8000}:8000"]   # API docs at http://localhost:8000/docs
+    volumes:
+      - ./evals/results:/app/evals/results   # eval reports land on your machine and in the UI
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ./frontend
+      args:
+        API_URL: http://api:8000
+    image: fraudshield-web:latest
+    ports: ["${WEB_PORT:-3000}:3000"]   # set WEB_PORT / API_PORT if these ports are taken
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped

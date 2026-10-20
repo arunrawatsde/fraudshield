@@ -1,0 +1,632 @@
+[
+ {
+  "transaction_id": "T001881",
+  "tag": "account_takeover",
+  "expected_fraud": true,
+  "expected_pattern": "account_takeover",
+  "has_injection": true
+ },
+ {
+  "transaction_id": "T001941",
+  "tag": "card_testing",
+  "expected_fraud": true,
+  "expected_pattern": "card_testing",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T001959",
+  "tag": "account_takeover",
+  "expected_fraud": true,
+  "expected_pattern": "account_takeover",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T002001",
+  "tag": "legit_subscriptions",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T002078",
+  "tag": "account_takeover",
+  "expected_fraud": true,
+  "expected_pattern": "account_takeover",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T002191",
+  "tag": "legit_subscriptions",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T002274",
+  "tag": "account_takeover",
+  "expected_fraud": true,
+  "expected_pattern": "account_takeover",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T002384",
+  "tag": "card_testing",
+  "expected_fraud": true,
+  "expected_pattern": "card_testing",
+  "has_injection": true
+ },
+ {
+  "transaction_id": "T002414",
+  "tag": "legit_travel",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T002429",
+  "tag": "impossible_travel",
+  "expected_fraud": true,
+  "expected_pattern": "impossible_travel",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T002562",
+  "tag": "card_testing",
+  "expected_fraud": true,
+  "expected_pattern": "card_testing",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T002662",
+  "tag": "impossible_travel",
+  "expected_fraud": true,
+  "expected_pattern": "impossible_travel",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T002677",
+  "tag": "legit_travel",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T002678",
+  "tag": "account_takeover",
+  "expected_fraud": true,
+  "expected_pattern": "account_takeover",
+  "has_injection": true
+ },
+ {
+  "transaction_id": "T002815",
+  "tag": "legit_travel",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T002866",
+  "tag": "card_testing",
+  "expected_fraud": true,
+  "expected_pattern": "card_testing",
+  "has_injection": true
+ },
+ {
+  "transaction_id": "T002907",
+  "tag": "legit_big_purchase",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T002920",
+  "tag": "account_takeover",
+  "expected_fraud": true,
+  "expected_pattern": "account_takeover",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T003042",
+  "tag": "legit_subscriptions",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T003203",
+  "tag": "legit_travel",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T003399",
+  "tag": "legit_big_purchase",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T003466",
+  "tag": "legit_travel",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T003522",
+  "tag": "legit_new_phone",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T003539",
+  "tag": "card_testing",
+  "expected_fraud": true,
+  "expected_pattern": "card_testing",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T003808",
+  "tag": "legit_big_purchase",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T003860",
+  "tag": "legit_travel",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T003974",
+  "tag": "legit_subscriptions",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T004014",
+  "tag": "legit_subscriptions",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T004047",
+  "tag": "legit_subscriptions",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T004117",
+  "tag": "card_testing",
+  "expected_fraud": true,
+  "expected_pattern": "card_testing",
+  "has_injection": true
+ },
+ {
+  "transaction_id": "T004126",
+  "tag": "impossible_travel",
+  "expected_fraud": true,
+  "expected_pattern": "impossible_travel",
+  "has_injection": true
+ },
+ {
+  "transaction_id": "T004162",
+  "tag": "legit_new_phone",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T004181",
+  "tag": "card_testing",
+  "expected_fraud": true,
+  "expected_pattern": "card_testing",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T004371",
+  "tag": "legit_new_phone",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T004434",
+  "tag": "legit_new_phone",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T004448",
+  "tag": "impossible_travel",
+  "expected_fraud": true,
+  "expected_pattern": "impossible_travel",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T004507",
+  "tag": "card_testing",
+  "expected_fraud": true,
+  "expected_pattern": "card_testing",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T004543",
+  "tag": "legit_big_purchase",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T004613",
+  "tag": "legit_subscriptions",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T004629",
+  "tag": "impossible_travel",
+  "expected_fraud": true,
+  "expected_pattern": "impossible_travel",
+  "has_injection": true
+ },
+ {
+  "transaction_id": "T004689",
+  "tag": "legit_subscriptions",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T004739",
+  "tag": "legit_big_purchase",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T004775",
+  "tag": "account_takeover",
+  "expected_fraud": true,
+  "expected_pattern": "account_takeover",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T004789",
+  "tag": "legit_new_phone",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T004791",
+  "tag": "legit_travel",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T004800",
+  "tag": "legit_big_purchase",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T004912",
+  "tag": "legit_travel",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T005051",
+  "tag": "account_takeover",
+  "expected_fraud": true,
+  "expected_pattern": "account_takeover",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T005066",
+  "tag": "legit_subscriptions",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T005101",
+  "tag": "legit_subscriptions",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T005190",
+  "tag": "impossible_travel",
+  "expected_fraud": true,
+  "expected_pattern": "impossible_travel",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T005263",
+  "tag": "legit_new_phone",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T005324",
+  "tag": "legit_big_purchase",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T005448",
+  "tag": "legit_travel",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T005449",
+  "tag": "account_takeover",
+  "expected_fraud": true,
+  "expected_pattern": "account_takeover",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T005475",
+  "tag": "impossible_travel",
+  "expected_fraud": true,
+  "expected_pattern": "impossible_travel",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T005526",
+  "tag": "legit_new_phone",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T005540",
+  "tag": "card_testing",
+  "expected_fraud": true,
+  "expected_pattern": "card_testing",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T005563",
+  "tag": "legit_big_purchase",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T005580",
+  "tag": "card_testing",
+  "expected_fraud": true,
+  "expected_pattern": "card_testing",
+  "has_injection": true
+ },
+ {
+  "transaction_id": "T005802",
+  "tag": "legit_big_purchase",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T005808",
+  "tag": "legit_subscriptions",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T005822",
+  "tag": "card_testing",
+  "expected_fraud": true,
+  "expected_pattern": "card_testing",
+  "has_injection": true
+ },
+ {
+  "transaction_id": "T005833",
+  "tag": "impossible_travel",
+  "expected_fraud": true,
+  "expected_pattern": "impossible_travel",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T005863",
+  "tag": "account_takeover",
+  "expected_fraud": true,
+  "expected_pattern": "account_takeover",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T005864",
+  "tag": "legit_travel",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T005991",
+  "tag": "legit_travel",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T006017",
+  "tag": "card_testing",
+  "expected_fraud": true,
+  "expected_pattern": "card_testing",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T006030",
+  "tag": "legit_travel",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T006074",
+  "tag": "legit_big_purchase",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T006080",
+  "tag": "legit_travel",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T006111",
+  "tag": "impossible_travel",
+  "expected_fraud": true,
+  "expected_pattern": "impossible_travel",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T006226",
+  "tag": "account_takeover",
+  "expected_fraud": true,
+  "expected_pattern": "account_takeover",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T006395",
+  "tag": "card_testing",
+  "expected_fraud": true,
+  "expected_pattern": "card_testing",
+  "has_injection": true
+ },
+ {
+  "transaction_id": "T006432",
+  "tag": "impossible_travel",
+  "expected_fraud": true,
+  "expected_pattern": "impossible_travel",
+  "has_injection": true
+ },
+ {
+  "transaction_id": "T006472",
+  "tag": "legit_big_purchase",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T006482",
+  "tag": "account_takeover",
+  "expected_fraud": true,
+  "expected_pattern": "account_takeover",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T006595",
+  "tag": "impossible_travel",
+  "expected_fraud": true,
+  "expected_pattern": "impossible_travel",
+  "has_injection": true
+ },
+ {
+  "transaction_id": "T006599",
+  "tag": "legit_new_phone",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T006604",
+  "tag": "legit_big_purchase",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T006702",
+  "tag": "legit_new_phone",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T006706",
+  "tag": "legit_subscriptions",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T006750",
+  "tag": "legit_big_purchase",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T006752",
+  "tag": "legit_travel",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T006819",
+  "tag": "account_takeover",
+  "expected_fraud": true,
+  "expected_pattern": "account_takeover",
+  "has_injection": true
+ },
+ {
+  "transaction_id": "T006868",
+  "tag": "impossible_travel",
+  "expected_fraud": true,
+  "expected_pattern": "impossible_travel",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T006870",
+  "tag": "card_testing",
+  "expected_fraud": true,
+  "expected_pattern": "card_testing",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T006880",
+  "tag": "legit_new_phone",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ },
+ {
+  "transaction_id": "T006891",
+  "tag": "account_takeover",
+  "expected_fraud": true,
+  "expected_pattern": "account_takeover",
+  "has_injection": true
+ },
+ {
+  "transaction_id": "T007023",
+  "tag": "legit_big_purchase",
+  "expected_fraud": false,
+  "expected_pattern": "none",
+  "has_injection": false
+ }
+]
